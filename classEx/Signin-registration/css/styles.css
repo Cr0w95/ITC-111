@@ -13,13 +13,17 @@
     color: #1d1c1c;
     padding: 10px;
 }
-#form{
+#formData{
     margin: 0 auto;
     text-align: center;
     color: #1d1c1c;
     padding: 10px;
 }
-.label{
+.registrationLabel{
+    text-align: left;
+    margin-left: 21px;
+}
+.signInLabel{
     text-align: center;
 }
 #age{
@@ -27,15 +31,3 @@
 
 }
 
-.dim{
-    border-radius: 20px;
-    border: solid 1px black;
-    width: 75%;
-    height: 100px;
-}
-#bgColor1{
-    background-color: blue;
-}
-#bgColor2{
-    background-color: red;
-}
