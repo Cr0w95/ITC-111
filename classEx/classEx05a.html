@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Class Exercise 05a</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            overflow: hidden;
+
+        }
+    </style>
+    <script>
+        function clickFunction(){
+            //alert('reached');
+            document.getElementById('innerDivBodyLeft').innerHTML
+        }
+    </script>
+</head>
+<body>
+    <div id='outerDiv'>
+        
+        <div id='innerDivHead'>
+            <ul>
+                <li>
+                    <a href="#" onclick="clickFunction()">Click Me</a>
+                </li>
+            </ul>
+        </div>
+        <div id='innerDivBodyLeft'></div>
+        <div id='innerDivBodyRight'></div>
+    </div>
+</body>
+</html>
