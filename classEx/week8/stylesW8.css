@@ -1,0 +1,42 @@
+.main{
+    background-color: lightslategray;
+    margin: 0 auto;
+    padding: 2px 2px auto;
+    width: max-content;
+    overflow: hidden;
+}
+.row{
+    height: max-content;
+    overflow: hidden;
+    margin: 0 2px auto;
+}
+#dsiplay1{
+    color: red;
+    text-align: right;
+    font-size: 18px;
+    width: 270px;
+    height: 18px;
+    margin:1px 0;
+}
+#dsiplay2{
+    background-color: azure;
+    color: red;
+    text-align: right;
+    font-size: 18px;
+    width: 273px;
+    height: 40px;
+    margin:0 2px auto;
+}
+button{
+    background-color: white;
+    font-size: xx-large;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+button:hover{
+    background-color: rgb(187, 224, 249);
+}
+button:active{
+    background-color: rgb();
+}
