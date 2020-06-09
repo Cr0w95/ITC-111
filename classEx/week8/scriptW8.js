@@ -16,7 +16,7 @@ function setOperator(trg){
 }
 function doMath(){
     alert('reached');
-    val2 = document.getElementById('display2').value:
+    val2 = document.getElementById('display2').value;
     var result;
     switch(val1.slice(-1)){
         case '-':
