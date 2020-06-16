@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flash Card</title>
+    <link rel="stylesheet" href="stylesW10.css">
+</head>
+<body>
+    <div class="center" id="main">
+        <!-- header/control section start -->
+        <header>
+            <h3 class="center">Flash Card</h3>
+        </header>
+        <!-- heading/control section end -->
+
+        <!-- category section start -->
+        <section class="center margin" id="chooseCat">
+            <select id="category" onchange="chgList(this)">
+                <option value="greetings">Greetings</option>
+                <option value="bodyParts">Body Parts</option>
+                <option value="color">Color</option>
+            </select>
+        </section>
+        <!-- category section end -->
+
+        <!-- Imager display section start -->
+        <section class="center margin" id="targetImg">
+            <img src="" alt="">
+            <div class="targetWrd" id="wrd"></div>
+        </section>
+        <!-- Imager display section end -->
+
+        <!-- Flip control section start -->
+        <section class="center margin" id="pagination">
+            <!-- previous button -->
+             <a href="#">
+                 <section class="pgBtn center margin" id="prevWord">
+                     <p id="prev" onclick="prvWrd()"><<</p>
+                 </section>
+             </a>
+             <!-- flip button -->
+             <a href="#">
+                <section class="pgBtn center margin" onclick="flipWrd()">
+                    <p id="flip">Flip</p>
+                </section>
+            </a>
+            <!-- next button -->
+            <a href="#">
+                <section class="pgBtn center margin" id="nextWord">
+                    <p id="next" onclick="nxtWrd()">>></p>
+                </section>
+            </a>
+        </section>
+        <!-- Flip control section end -->
+
+        <!-- Language List Section start -->
+            <section class="center margin" id="swapLangBtn">
+                <select id="target1" onchange="setList(this)">
+                    <option value="English">English</option>
+                    <option value="Swahili">Swahili</option>
+                </select>&nbsp;
+                <input type="button" id="swapBtn" value="<=>" onclick="swapTargets()">&nbsp;
+                <select id="target2" onchange="setList(this)">
+                    <option value="English">English</option>
+                    <option value="Swahili">Swahili</option>
+                </select>
+            </section>
+        <!-- Language List Section start -->
+
+    </div>
+    <script src="appW10.js"></script>
+</body>
+</html>
