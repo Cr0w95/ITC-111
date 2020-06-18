@@ -5,65 +5,65 @@
     margin: 1px auto;
 }
 #main {
-    padding: 0;
+    padding: 0 ;
     border: 1px black solid;
     background-color: azure;
     width: 215px;
     height: 300px;
 }
-p{
+p {
     margin: 3px auto;
 }
-h3{
-    margin:0;
-    padding:0;
+h3 {
+    margin: 0;
+    padding: 0;
 }
-header{
+header {
     margin: 1% auto;
     padding-top: 5%;
     height: 8.5%;
 }
 header, section {
-    border: 1x black solid; 
+    border: 1px black solid;
     text-align: center;
     width: 95%;
 }
-#targetImg{
+#targetImg {
     position: relative;
     height: 56%;
 }
-.trgWrd{
+.trgWrd {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-#pagination{
+  }
+#pagination {
     background-color: rgb(58, 75, 172);
     overflow: hidden;
 }
-.pgBtn{
+.pgBtn {
     border: none;
     color: white;
     width: 20%;
     float: left;
 }
-#flipWord{
+#flipWord {
     border: none;
     color: white;
     width: 60%;
     height: 12%;
 }
-#swapLangBtn{
+#swapLangBtn {
     margin-top: 2px;
     padding-top: 3px;
     width: 95%;
     height: 8%;
 }
-input{
+input {
     margin: 0;
     padding: 0;
 }
-#swap{
+#swap {
     width: 34%;
 }
